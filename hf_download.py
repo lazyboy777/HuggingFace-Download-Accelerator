@@ -1,10 +1,3 @@
-"""
-@File         :hf_download.py
-@Description  :Download huggingface models and datasets from mirror site.
-@Author       :Xiaojian Yuan
-"""
-
-
 import argparse
 import os
 import sys
@@ -54,7 +47,7 @@ parser.add_argument(
 parser.add_argument(
     "--save_dir",
     "-S",
-    default=None,
+    default=r"F:\PYTHON_STUDY\deepseek-ai\huggingface_cache",
     type=str,
     help="path to be saved after downloading.",
 )
